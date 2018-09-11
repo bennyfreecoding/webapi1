@@ -4,3 +4,5 @@ Study RESTful api
 === Webpack
 === Babel
 === Nodemon
+
+### editor config
