@@ -6,3 +6,9 @@ Study RESTful api
 === Nodemon
 
 ### editor config
+-- editor config  editor config genrator
+
+
+## Task 2 Setup middlewares and mongodb
+
+- add mongoose, body-parser, morgan, compression, helmet

@@ -1,15 +1,18 @@
-import express from 'express'
+import express from 'express';
 
-import constants from './config/constants'
+import constants from './config/constants';
 
 import './config/database';
 
-
-console.log('=============================================');
-console.log(constants);
-console.log('=============================================');
+import middlewaresConfig from './config/middlewares';
 
 const app = express();
+
+middlewaresConfig(app);
+
+app.get('/',(req,res)=>{
+  res.send('hello world');
+})
 
 const PORT = process.env.PORT || 3000;
 
